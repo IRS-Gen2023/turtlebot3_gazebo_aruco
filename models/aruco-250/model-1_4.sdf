@@ -6,7 +6,7 @@
         <geometry>
           <mesh>
             <uri>model://aruco-250/meshes/aruco-250.dae</uri>
-          <scale>0.7 0.7 0.7</scale></mesh>
+          <scale>4.0 4.0 4.0</scale></mesh>
         </geometry>
       </visual>
     </link>

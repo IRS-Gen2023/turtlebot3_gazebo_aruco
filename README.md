@@ -5,8 +5,6 @@ Es el paquete de ```turtlebot3_gazebo```, pero con el mapa de manchester que ya 
 
 # Instalar modelos
 - Para que esto funcione, tienes que poner la capeta ```models``` dentro de ```$HOME/.gazebo/```
-- Para lanzar el mundo de gazebo usa el comando:
-
 # Lanzar el mundo
 ```
 roslaunch turtlebot3_gazebo turtlebot3_puzzlebot_world_aruco.launch 
