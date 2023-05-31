@@ -24,3 +24,9 @@ De manera adicional, se puede lanzar el rviz de ```fiducials``` para monitorear 
 ```
 roslaunch fiducial_slam fiducial_rviz.launch
 ```
+# Obtener la pose:
+Se puede obtener la pose con un subscriptor al tópico ```/fiducial_pose```.
+```
+root@5b57e27a2f2c:/ros_ws# rostopic type /fiducial_pose
+geometry_msgs/PoseWithCovarianceStamped
+```
